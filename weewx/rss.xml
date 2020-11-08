@@ -7,29 +7,29 @@
       <link></link>
       <description>Current conditions, and daily, monthly, and yearly summaries</description>
       <language>en-us</language>
-      <pubDate>Sun, 08 Nov 2020 00:30:00 MST</pubDate>
+      <pubDate>Sun, 08 Nov 2020 00:40:00 MST</pubDate>
 
-      <lastBuildDate>Sun, 08 Nov 2020 00:30:00 MST</lastBuildDate>
+      <lastBuildDate>Sun, 08 Nov 2020 00:40:00 MST</lastBuildDate>
       <docs>http://blogs.law.harvard.edu/tech/rss</docs>
       <generator>weewx 4.2.0</generator>
       <ttl>5.000000 minutes</ttl>
       
       <item>
-         <title>Weather Conditions at 11/08/2020 12:30:00 AM</title>
+         <title>Weather Conditions at 11/08/2020 12:40:00 AM</title>
          <link></link>
          <description>
            Outside temperature: 57.9&#176;F; 
            Barometer:    N/A; 
-           Wind: 1 mph from 225&#176;; 
+           Wind: 2 mph from 115&#176;; 
            Rain rate: 0.00 in/h; 
            Inside temperature:    N/A
          </description>
-         <pubDate>Sun, 08 Nov 2020 00:30:00 MST</pubDate>
+         <pubDate>Sun, 08 Nov 2020 00:40:00 MST</pubDate>
 	     <geo:lat>40.0</geo:lat>
     	 <geo:long>-105.0</geo:long>
  		 <content:encoded><![CDATA[
            <p>
-             Time:                11/08/2020 12:30:00 AM<br/>
+             Time:                11/08/2020 12:40:00 AM<br/>
              Outside Temperature: 57.9&#176;F<br/>
              Inside Temperature:     N/A<br/>
              Wind Chill:          57.9&#176;F<br/>
@@ -37,18 +37,18 @@
              Dewpoint:            39.4&#176;F<br/>
              Humidity:            50%<br/>
              Barometer:              N/A<br/>
-             Wind:                1 mph from 225&#176;<br/>
+             Wind:                2 mph from 115&#176;<br/>
              Rain Rate:           0.00 in/h<br/>
         </p>
       ]]></content:encoded>
       </item>
 
       <item>
-         <title>Daily Weather Summary as of 11/08/2020 12:30:00 AM</title>
+         <title>Daily Weather Summary as of 11/08/2020 12:40:00 AM</title>
          <link></link>
          <description>
 	        Min outside temperature: 57.0&#176;F at 12:00:23 AM;
-         	Max outside temperature: 57.9&#176;F at 12:24:41 AM;
+         	Max outside temperature: 57.9&#176;F at 12:35:00 AM;
 	        Min inside temperature:     N/A at    N/A;
 	        Max inside temperature:     N/A at    N/A;
 	        Min barometer:              N/A at    N/A;
@@ -56,14 +56,14 @@
             Max wind :               11 mph from 68&#176; at 12:14:11 AM;
             Rain today:              0.00 in
          </description>
-         <pubDate>Sun, 08 Nov 2020 00:30:00 MST</pubDate>
+         <pubDate>Sun, 08 Nov 2020 00:40:00 MST</pubDate>
 	     <geo:lat>40.0</geo:lat>
     	 <geo:long>-105.0</geo:long>
  		 <content:encoded><![CDATA[
            <p>
              Day:                     08 Nov 2020<br/>
 	         Min Outside Temperature: 57.0&#176;F at 12:00:23 AM<br/>
-	         Max Outside Temperature: 57.9&#176;F at 12:24:41 AM<br/>
+	         Max Outside Temperature: 57.9&#176;F at 12:35:00 AM<br/>
 	         Min Inside Temperature:     N/A at    N/A<br/>
 	         Max Inside Temperature:     N/A at    N/A<br/>
 	         Min Barometer:              N/A at    N/A<br/>
@@ -75,7 +75,7 @@
       </item>
 
       <item>
-         <title>Monthly Weather Summary as of 11/08/2020 12:30:00 AM</title>
+         <title>Monthly Weather Summary as of 11/08/2020 12:40:00 AM</title>
          <link></link>
          <description>
 	        Min outside temperature: 27.0&#176;F at 11/02/2020 06:44:24 AM;
@@ -87,7 +87,7 @@
             Max wind :               11 mph from 68&#176; at 11/08/2020 12:14:11 AM;
             Rain total for month:    0.00 in
          </description>
-         <pubDate>Sun, 08 Nov 2020 00:30:00 MST</pubDate>
+         <pubDate>Sun, 08 Nov 2020 00:40:00 MST</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Month:                   November 2020<br/>
@@ -104,7 +104,7 @@
       </item>
 
       <item>
-         <title>Yearly Weather Summary as of 11/08/2020 12:30:00 AM</title>
+         <title>Yearly Weather Summary as of 11/08/2020 12:40:00 AM</title>
          <link></link>
          <description>
 	        Min outside temperature: 24.6&#176;F at 10/16/2020 06:49:49 AM;
@@ -116,7 +116,7 @@
             Max wind :               36 mph from 315&#176; at 10/11/2020 02:09:04 PM;
             Rain total for year:     0.00 in
          </description>
-         <pubDate>Sun, 08 Nov 2020 00:30:00 MST</pubDate>
+         <pubDate>Sun, 08 Nov 2020 00:40:00 MST</pubDate>
  		 <content:encoded><![CDATA[
            <p>
              Year:                    2020<br/>

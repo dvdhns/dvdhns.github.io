@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Longmont, CO Statistics</title>
+    <link rel="icon" type="image/png" href="favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="seasons.css"/>
+    <script src="seasons.js"></script>
+    <style>
+#statistics_widget th {
+  font-weight: normal;
+  text-align: right;
+}
+#statistics_widget .widget_title {
+  margin-bottom: 25px;
+}
+#statistics_widget .label {
+  font-size: 100%;
+}
+#statistics_widget .data {
+  text-align: right;
+  font-size: 100%;
+  padding-left: 50px;
+}
+#statistics_widget .units {
+  font-size: 100%;
+}
+#statistics_widget .timestamp {
+  color: var(--timestamp-color);
+}
+    </style>
+  </head>
+
+  <body>
+
+<div id="title_bar">
+  <div id="title">
+    <h1 class="page_title">Longmont, CO</h1>
+    <p class="lastupdate">11/08/2020 12:30:00 AM</p>
+  </div>
+  <div id="rss_link"><a href="rss.xml">RSS</a></div>
+  <div id="reports">
+    Monthly Reports:
+    <select name="reports" onchange="openTabularFile(value)">
+      <option value="2020-05">2020-05</option>
+      <option value="2020-06">2020-06</option>
+      <option value="2020-07">2020-07</option>
+      <option value="2020-08">2020-08</option>
+      <option value="2020-09">2020-09</option>
+      <option value="2020-10">2020-10</option>
+      <option value="2020-11">2020-11</option>
+      <option selected>- Select Month -</option>
+    </select>
+    <br/>
+    Yearly Reports:
+    <select name="reports" onchange="openTabularFile(value)">
+      <option value="2020">2020</option>
+      <option selected>- Select Year -</option>
+    </select>
+    <br/>
+  </div>
+</div>
+    
+    <div id="contents">
+      <p><a href="index.html">&#10096; Current Conditions</a></p>
+
+      <div id="widget_group">
+
+
+<div id="statistics_widget" class="widget">
+  <div class="widget_title">
+    Statistics
+  </div>
+  <div class="widget_contents">
+
+    <table>
+      <tbody>
+        <tr>
+          <td></td>
+          <td></td>
+          <th>Today</th>
+          <th class="hilo_week">Week</th>
+          <th class="hilo_month">Month</th>
+          <th class="hilo_year">Year</th>
+          <th class="hilo_rainyear">Rain year</th>
+        </tr>
+        <tr>
+          <td class="label">Outside Temperature</td>
+          <td class="units">&#176;F</td>
+          <td class="data new_row">57.9<br/>
+            <span class="timestamp">12:24:41 AM</span><br/>
+            57.0<br/>
+            <span class="timestamp">12:00:23 AM</span>
+          </td>
+          <td class="data new_row">57.9<br/>
+            <span class="timestamp">12:24:41 AM (Sunday)</span><br/>
+            57.0<br/>
+            <span class="timestamp">12:00:23 AM (Sunday)</span>
+          </td>
+          <td class="data new_row">90.9<br/>
+            <span class="timestamp">11/03/2020 01:10:49 PM</span><br/>
+            27.0<br/>
+            <span class="timestamp">11/02/2020 06:44:24 AM</span>
+          </td>
+          <td class="data new_row">116.8<br/>
+            <span class="timestamp">08/09/2020 03:15:29 PM</span><br/>
+            24.6<br/>
+            <span class="timestamp">10/16/2020 06:49:49 AM</span>
+          </td>
+          <td class="data new_row">116.8<br/>
+            <span class="timestamp">08/09/2020 03:15:29 PM</span><br/>
+            24.6<br/>
+            <span class="timestamp">10/16/2020 06:49:49 AM</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="label">Heat Index</td>
+          <td class="units">&#176;F</td>
+          <td class="data new_row">55.7<br/>
+            <span class="timestamp">12:24:41 AM</span>
+          </td>
+          <td class="data new_row">55.7<br/>
+            <span class="timestamp">12:24:41 AM (Sunday)</span>
+          </td>
+          <td class="data new_row">90.9<br/>
+            <span class="timestamp">11/03/2020 01:10:49 PM</span>
+          </td>
+          <td class="data new_row">116.8<br/>
+            <span class="timestamp">08/09/2020 03:15:29 PM</span>
+          </td>
+          <td class="data new_row">116.8<br/>
+            <span class="timestamp">08/09/2020 03:15:29 PM</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="label">Wind Chill</td>
+          <td class="units">&#176;F</td>
+          <td class="data new_row">57.0<br/>
+            <span class="timestamp">12:00:23 AM</span>
+          </td>
+          <td class="data new_row">57.0<br/>
+            <span class="timestamp">12:00:23 AM (Sunday)</span>
+          </td>
+          <td class="data new_row">27.0<br/>
+            <span class="timestamp">11/02/2020 06:44:24 AM</span>
+          </td>
+          <td class="data new_row">24.6<br/>
+            <span class="timestamp">10/16/2020 06:49:49 AM</span>
+          </td>
+          <td class="data new_row">24.6<br/>
+            <span class="timestamp">10/16/2020 06:49:49 AM</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="label">Dew Point</td>
+          <td class="units">&#176;F</td>
+          <td class="data new_row">39.4<br/>
+            <span class="timestamp">12:07:35 AM</span><br/>
+            39.1<br/>
+            <span class="timestamp">12:00:23 AM</span>
+          </td>
+          <td class="data new_row">39.4<br/>
+            <span class="timestamp">12:07:35 AM (Sunday)</span><br/>
+            39.1<br/>
+            <span class="timestamp">12:00:23 AM (Sunday)</span>
+          </td>
+          <td class="data new_row">46.3<br/>
+            <span class="timestamp">11/04/2020 10:22:14 AM</span><br/>
+            23.0<br/>
+            <span class="timestamp">11/06/2020 06:40:16 AM</span>
+          </td>
+          <td class="data new_row">68.9<br/>
+            <span class="timestamp">07/13/2020 01:16:55 PM</span><br/>
+            15.5<br/>
+            <span class="timestamp">10/12/2020 12:56:26 AM</span>
+          </td>
+          <td class="data new_row">68.9<br/>
+            <span class="timestamp">07/13/2020 01:16:55 PM</span><br/>
+            15.5<br/>
+            <span class="timestamp">10/12/2020 12:56:26 AM</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="label">Humidity</td>
+          <td class="units">%</td>
+          <td class="data new_row">51<br/>
+            <span class="timestamp">12:00:23 AM</span><br/>
+            50<br/>
+            <span class="timestamp">12:09:23 AM</span>
+          </td>
+          <td class="data new_row">51<br/>
+            <span class="timestamp">12:00:23 AM (Sunday)</span><br/>
+            50<br/>
+            <span class="timestamp">12:09:23 AM (Sunday)</span>
+          </td>
+          <td class="data new_row">89<br/>
+            <span class="timestamp">11/02/2020 07:02:24 AM</span><br/>
+            13<br/>
+            <span class="timestamp">11/03/2020 01:03:01 PM</span>
+          </td>
+          <td class="data new_row">96<br/>
+            <span class="timestamp">05/24/2020 10:48:00 PM</span><br/>
+            8<br/>
+            <span class="timestamp">08/09/2020 03:16:41 PM</span>
+          </td>
+          <td class="data new_row">96<br/>
+            <span class="timestamp">05/24/2020 10:48:00 PM</span><br/>
+            8<br/>
+            <span class="timestamp">08/09/2020 03:16:41 PM</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="label">Barometer</td>
+          <td class="units"> inHg</td>
+          <td class="data new_row">   N/A<br/>
+            <span class="timestamp">   N/A</span><br/>
+               N/A<br/>
+            <span class="timestamp">   N/A</span>
+          </td>
+          <td class="data new_row">   N/A<br/>
+            <span class="timestamp">   N/A</span><br/>
+               N/A<br/>
+            <span class="timestamp">   N/A</span>
+          </td>
+          <td class="data new_row">   N/A<br/>
+            <span class="timestamp">   N/A</span><br/>
+               N/A<br/>
+            <span class="timestamp">   N/A</span>
+          </td>
+          <td class="data new_row">   N/A<br/>
+            <span class="timestamp">   N/A</span><br/>
+               N/A<br/>
+            <span class="timestamp">   N/A</span>
+          </td>
+          <td class="data new_row">   N/A<br/>
+            <span class="timestamp">   N/A</span><br/>
+               N/A<br/>
+            <span class="timestamp">   N/A</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="label">Rain</td>
+          <td class="units"> in</td>
+          <td class="data new_row">0.00</td>
+          <td class="data new_row">0.00</td>
+          <td class="data new_row">0.00</td>
+          <td class="data new_row">0.00</td>
+          <td class="data new_row">0.00</td>
+        </tr>
+        <tr>
+          <td class="label">Rain Rate</td>
+          <td class="units"> in/h</td>
+          <td class="data new_row">
+            0.00<br/>
+            <span class="timestamp">12:00:05 AM</span>
+          </td>
+          <td class="data new_row">
+            0.00<br/>
+            <span class="timestamp">12:00:05 AM (Sunday)</span>
+          </td>
+          <td class="data new_row">
+            0.00<br/>
+            <span class="timestamp">11/01/2020 09:49:56 AM</span>
+          </td>
+          <td class="data new_row">
+            0.00<br/>
+            <span class="timestamp">05/11/2020 09:23:45 PM</span>
+          </td>
+          <td class="data new_row">
+            0.00<br/>
+            <span class="timestamp">05/11/2020 09:23:45 PM</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="label">Wind Max</td>
+          <td class="units">
+             mph<br/>
+            &#176;
+          </td>
+          <td class="data new_row">
+            11<br/>
+            68<br/>
+            <span class="timestamp">12:14:11 AM</span>
+          </td>
+          <td class="data new_row">
+            11<br/>
+            68<br/>
+            <span class="timestamp">12:14:11 AM (Sunday)</span>
+          </td>
+          <td class="data new_row">
+            11<br/>
+            68<br/>
+            <span class="timestamp">11/08/2020 12:14:11 AM</span>
+          </td>
+          <td class="data new_row">
+            36<br/>
+            315<br/>
+            <span class="timestamp">10/11/2020 02:09:04 PM</span>
+          </td>
+          <td class="data new_row">
+            36<br/>
+            315<br/>
+            <span class="timestamp">10/11/2020 02:09:04 PM</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="label">Wind Average</td>
+          <td class="units"> mph</td>
+          <td class="data new_row">
+            3</td>
+          <td class="data new_row">
+            3</td>
+          <td class="data new_row">
+            0</td>
+          <td class="data new_row">
+            2</td>
+          <td class="data new_row">
+            2</td>
+        </tr>
+        <tr>
+          <td class="label">Wind RMS</td>
+          <td class="units"> mph</td>
+          <td class="data new_row">3</td>
+          <td class="data new_row">3</td>
+          <td class="data new_row">0</td>
+          <td class="data new_row">3</td>
+          <td class="data new_row">3</td>
+        </tr>
+
+        <tr>
+          <td class="label">
+            Vector Average<br/>
+            Average Direction
+          </td>
+          <td class="units">
+             mph<br/>
+            &#176;
+          </td>
+          <td class="data new_row">
+            1<br/>
+            143
+          </td>
+          <td class="data new_row">
+            1<br/>
+            143
+          </td>
+          <td class="data new_row">
+            0<br/>
+            92
+          </td>
+          <td class="data new_row">
+            1<br/>
+            67
+          </td>
+          <td class="data new_row">
+            1<br/>
+            67
+          </td>
+        </tr>
+
+
+
+
+
+        <tr>
+          <td class="label">Temperature1</td>
+          <td class="units">&#176;F</td>
+          <td class="data new_row">
+            58.8<br/>
+            <span class="timestamp">12:30:00 AM</span><br/>
+            58.3<br/>
+            <span class="timestamp">12:00:25 AM</span>
+          </td>
+          <td class="data new_row">
+            58.8<br/>
+            <span class="timestamp">12:30:00 AM (Sunday)</span><br/>
+            58.3<br/>
+            <span class="timestamp">12:00:25 AM (Sunday)</span>
+          </td>
+          <td class="data new_row">
+            58.8<br/>
+            <span class="timestamp">11/08/2020 12:30:00 AM</span><br/>
+            54.7<br/>
+            <span class="timestamp">11/07/2020 11:20:07 PM</span>
+          </td>
+          <td class="data new_row">
+            108.1<br/>
+            <span class="timestamp">07/07/2020 04:30:58 PM</span><br/>
+            39.6<br/>
+            <span class="timestamp">05/26/2020 05:55:42 AM</span>
+          </td>
+          <td class="data new_row">
+            108.1<br/>
+            <span class="timestamp">07/07/2020 04:30:58 PM</span><br/>
+            39.6<br/>
+            <span class="timestamp">05/26/2020 05:55:42 AM</span>
+          </td>
+        </tr>
+
+
+      </tbody>
+    </table>
+
+  </div>
+</div>
+      </div>
+
+
+<div id='identifier_widget' class="widget">
+  <div class="widget_title">
+  </div>
+  <div class="widget_contents">
+  <table>
+    <tr>
+      <td class="label">Latitude</td>
+      <td class="data">40&deg; 00.00' N</td>
+    </tr>
+    <tr>
+      <td class="label">Longitude</td>
+      <td class="data">105&deg; 00.00' W</td>
+    </tr>
+    <tr>
+      <td class="label">Altitude</td>
+      <td class="data">5000 feet</td>
+    </tr>
+    <tr>
+      <td class="label">WeeWX</td>
+      <td class="data">4.2.0</td>
+    </tr>
+  </table>
+  </div>
+
+</div>
+    </div>
+
+  </body>
+</html>
